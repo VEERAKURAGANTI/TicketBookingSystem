@@ -8,7 +8,6 @@ import com.myuser.User;
 public class MainClass {
 
 	public static void main(String[] args) {
-		
 		Scanner sc=new Scanner(System.in);
 		TicketBookingSystem t=new TicketBookingSystem();
 		boolean isStart=true;
