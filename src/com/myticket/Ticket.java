@@ -16,7 +16,7 @@ public class Ticket implements Serializable {
     private static final Random RANDOM = new Random();
 
     public Ticket(int distance, String boardingPoint, String destinationPoint, int seatNo) {
-        this.ticketId = RANDOM.nextInt(1_234_567) + 1; // non-zero id
+        this.ticketId = RANDOM.nextInt(1_234_567) + 1; 
         this.distance = distance;
         this.boardingPoint = boardingPoint;
         this.destinationPoint = destinationPoint;
