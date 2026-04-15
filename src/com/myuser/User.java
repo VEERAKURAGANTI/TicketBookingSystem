@@ -13,7 +13,7 @@ public class User implements Serializable {
     private final long phone;
     private final char gender;
 
-    // per-user tickets
+   
     private final ArrayList<Ticket> tickets = new ArrayList<Ticket>();
 
     public User(int userId, String name, String email, long phone, char gender) {
