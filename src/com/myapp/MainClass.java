@@ -36,7 +36,6 @@ public class MainClass {
 		    case 2:
 		    {
 		         t.showUsers();	
-				break;
 		    }
 		    break;
 		    case 3:
