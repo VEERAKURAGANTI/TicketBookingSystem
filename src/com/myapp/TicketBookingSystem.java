@@ -21,7 +21,7 @@ public class TicketBookingSystem {
         System.out.println("User created: " + u.getName() + " (ID: " + u.getUserId() + ")");
     }
 
-    // Show all users
+    
     public void showUsers() {
         if (users.isEmpty()) {
             System.out.println("No users found.");
