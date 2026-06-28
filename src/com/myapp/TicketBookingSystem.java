@@ -149,7 +149,7 @@ public class TicketBookingSystem {
         
     }
 
-    // Cancel ticket by userId and ticketId (removes from both user and global lists)
+  
     public void cancelTicket(int userId, int ticketId) {
         User u = getUserById(userId);
         if (u == null) {
