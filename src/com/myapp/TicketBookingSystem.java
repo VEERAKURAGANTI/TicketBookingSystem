@@ -32,7 +32,7 @@ public class TicketBookingSystem {
         }
     }
 
-    //find the user by id
+    
     public User getUserById(int userId) {
         for (User u : users) {
             if (u.getUserId() == userId) {
