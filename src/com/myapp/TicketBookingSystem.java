@@ -60,7 +60,7 @@ public class TicketBookingSystem {
         System.out.println("Ticket booked successfully for user " + u.getName() + ". Ticket ID: " + t.getTicketId());
     }
 
-   // Get ticket from global list by ticketId
+  
     public Ticket getTicketById(int ticketId) {
         for (Ticket t : tickets) {
             if (t.getTicketId() == ticketId) {
