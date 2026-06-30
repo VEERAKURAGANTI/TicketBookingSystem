@@ -70,7 +70,7 @@ public class TicketBookingSystem {
         return null;
     }
 
-    // Show journey by ticket id — finds ticket in global list and the exact user who booked it
+    
     public void showJourneyByTicketId(int ticketId) {
         Ticket t = getTicketById(ticketId);
         if (t == null) {
