@@ -22,7 +22,7 @@ public class Ticket implements Serializable {
         this.destinationPoint = destinationPoint;
         this.seatNo = seatNo;
         this.cost = calculateCost(distance);
-        this.bookedUserId = -1; //
+        this.bookedUserId = -1; //not booked yet 
     }
 
     private int calculateCost(int distance) {
