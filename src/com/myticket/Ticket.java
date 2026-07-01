@@ -26,7 +26,7 @@ public class Ticket implements Serializable {
     }
 
     private int calculateCost(int distance) {
-        return distance * 2; // 
+        return distance * 2; // ₹10per 1 km
     }
 
     public int getTicketId() { return ticketId; }
