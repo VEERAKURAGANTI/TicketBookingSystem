@@ -30,7 +30,7 @@ public class User implements Serializable {
     public long getPhone() { return phone; }
     public char getGender() { return gender; }
 
-   //
+    // add ticket to this user's list
     public void addTicket(Ticket t) {
         tickets.add(t);
     }
