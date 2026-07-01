@@ -35,7 +35,7 @@ public class User implements Serializable {
         tickets.add(t);
     }
 
-    // remove a ticket by ticketId from this user's list
+    //
     public boolean removeTicketById(int ticketId) {
         Iterator<Ticket> it = tickets.iterator();
         while (it.hasNext()) {
