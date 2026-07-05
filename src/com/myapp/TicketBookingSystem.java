@@ -117,7 +117,7 @@ public class TicketBookingSystem {
         }
     }
 
-    // Change boarding point for a particular ticket (must belong to the user)
+    //
     public void changeBoardingPoint(int userId, int ticketId, String newBoardingPoint) {
         User u = getUserById(userId);
         if (u == null) {
