@@ -173,7 +173,7 @@ public class TicketBookingSystem {
                 return;
             }
         }
-        // If not found in global list (shouldn't happen), still report success
+        // 
         System.out.println("Ticket removed from user's list (not found in global list).");
     }
 
