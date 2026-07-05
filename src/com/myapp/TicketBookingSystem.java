@@ -54,7 +54,7 @@ public class TicketBookingSystem {
         t.setBookedUserId(userId);
         u.addTicket(t);
 
-        //
+        //add the globle list
         tickets.add(t);
 
         System.out.println("Ticket booked successfully for user " + u.getName() + ". Ticket ID: " + t.getTicketId());
