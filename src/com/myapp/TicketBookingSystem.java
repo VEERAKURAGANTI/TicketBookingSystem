@@ -204,7 +204,7 @@ public class TicketBookingSystem {
         System.out.println("No user found with ID: " + userId);
     }
 
-    //
+    // View all tickets (global) with user info
     public void viewAllTickets() {
         if (tickets.isEmpty()) {
             System.out.println("No tickets booked yet.");
