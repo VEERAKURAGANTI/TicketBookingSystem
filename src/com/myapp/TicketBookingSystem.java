@@ -11,7 +11,7 @@ public class TicketBookingSystem {
     private  ArrayList<User> users = new ArrayList<User>();
     private  ArrayList<Ticket> tickets = new ArrayList<Ticket>(); //globle list
 
-    //create user
+    //
     public void createUser(User u) {
         if (getUserById(u.getUserId()) != null) {
             System.out.println("User with ID " + u.getUserId() + " already exists. Choose another ID.");
