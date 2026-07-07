@@ -9,7 +9,7 @@ import com.myuser.User;
 public class TicketBookingSystem {
 
     private  ArrayList<User> users = new ArrayList<User>();
-    private  ArrayList<Ticket> tickets = new ArrayList<Ticket>(); //globle list
+    private  ArrayList<Ticket> tickets = new ArrayList<Ticket>(); //
 
     //create the user
     public void createUser(User u) {
