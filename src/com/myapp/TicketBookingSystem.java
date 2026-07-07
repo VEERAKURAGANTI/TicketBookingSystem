@@ -70,7 +70,7 @@ public class TicketBookingSystem {
         return null;
     }
 
-    //show the journey ticket by ticket id and extract the user details by the ticket id
+    //
     public void showJourneyByTicketId(int ticketId) {
         Ticket t = getTicketById(ticketId);
         if (t == null) {
