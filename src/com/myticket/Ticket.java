@@ -11,8 +11,7 @@ public class Ticket implements Serializable {
     private String destinationPoint;
     private int seatNo;
     private int cost; 
-    private int bookedUserId; //user who book the ticket
-
+    private int bookedUserId; //
     private static final Random RANDOM = new Random();
 
     public Ticket(int distance, String boardingPoint, String destinationPoint, int seatNo) {
