@@ -42,7 +42,7 @@ public class TicketBookingSystem {
         return null;
     }
 
-    //booking the ticket using user id and ticket object
+    //
     public void bookTicket(int userId, Ticket t) {
         User u = getUserById(userId);
         if (u == null) {
