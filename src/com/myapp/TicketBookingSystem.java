@@ -177,7 +177,7 @@ public class TicketBookingSystem {
         System.out.println("Ticket removed from user's list (not found in global list).");
     }
 
-    // Delete user account by id and cascade-delete their tickets
+    // 
     public void deleteAccount(int userId) {
         Iterator<User> userIt = users.iterator();
         while (userIt.hasNext()) {
