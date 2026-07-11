@@ -183,7 +183,7 @@ public class TicketBookingSystem {
         while (userIt.hasNext()) {
             User u = userIt.next();
             if (u.getUserId() == userId) {
-                //
+                // remove user's tickets from global list
                 ArrayList<Ticket> userTickets = u.getTickets();
                 for (Ticket ut : userTickets) {
                     // remove each ticket from global tickets
