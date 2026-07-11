@@ -133,7 +133,7 @@ public class TicketBookingSystem {
         System.out.println("Boarding point updated for ticket " + ticketId + " to: " + newBoardingPoint);
     }
 
-    // Change destination point for a particular ticket (must belong to the user)
+    // 
     public void changeDestinationPoint(int userId, int ticketId, String newDestinationPoint) {
         User u = getUserById(userId);
         if (u == null) {
