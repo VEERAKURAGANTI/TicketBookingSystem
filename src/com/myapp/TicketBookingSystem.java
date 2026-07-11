@@ -86,7 +86,7 @@ public class TicketBookingSystem {
             return;
         }
 
-       //ensure ticket belongs to the user (safe check)
+       //
         Ticket userTicket = u.getTicketById(ticketId);
         if (userTicket == null) {
             System.out.println("Data mismatch: ticket found in global list but not in user's list. (ticketId=" + ticketId + ")");
