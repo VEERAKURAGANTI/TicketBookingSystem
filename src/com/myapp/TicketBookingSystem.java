@@ -99,7 +99,7 @@ public class TicketBookingSystem {
         t.display();
     }
 
-    // Show all tickets for a user (search by userId)
+    // 
     public void searchTicketsByUserId(int userId) {
         User u = getUserById(userId);
         if (u == null) {
