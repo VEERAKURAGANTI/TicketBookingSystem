@@ -186,8 +186,7 @@ public class TicketBookingSystem {
                 // remove user's tickets from global list
                 ArrayList<Ticket> userTickets = u.getTickets();
                 for (Ticket ut : userTickets) {
-                    // 
-                    
+                    // remove each ticket from global tickets
                     Iterator<Ticket> tIt = tickets.iterator();
                     while (tIt.hasNext()) {
                         Ticket g = tIt.next();
