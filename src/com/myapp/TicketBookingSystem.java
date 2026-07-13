@@ -50,7 +50,7 @@ public class TicketBookingSystem {
             return;
         }
 
-        //link the tickets to user
+        //
         t.setBookedUserId(userId);
         u.addTicket(t);
 
