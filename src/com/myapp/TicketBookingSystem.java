@@ -163,7 +163,7 @@ public class TicketBookingSystem {
             return;
         }
 
-        // 
+        // remove from global tickets list
         Iterator<Ticket> it = tickets.iterator();
         while (it.hasNext()) {
             Ticket t = it.next();
